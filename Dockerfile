@@ -1,6 +1,6 @@
 FROM node:alpine3.12
 
-COPY . .
+WORKDIR ${GITHUB_WORKSPACE}
 
 RUN ls
 RUN npm install
