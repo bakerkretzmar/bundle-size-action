@@ -8,6 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world
+        id: hello
         uses: ./
         with:
           who-to-greet: 'Jacob'

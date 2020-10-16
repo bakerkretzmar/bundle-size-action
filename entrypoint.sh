@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
 echo "Hello $1"
-time=$(date)
+time=$(npm run build)
 echo "::set-output name=time::$time"
