@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
+cd /
 echo "Hello $1"
 pwd
 ls -alh
